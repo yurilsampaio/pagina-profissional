@@ -316,7 +316,7 @@ export default function Portfolio() {
               <Image src="/yuri-photo.jpeg" alt="Yuri Sampaio" fill className="object-cover" priority />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Yuri Sampaio</h1>
-            <p className="text-lg md:text-2xl text-muted-foreground mb-8">Desenvolvedor de Software</p>
+            <p className="text-lg md:text-2xl text-muted-foreground mb-8">Engenheiro de Software</p>
           </div>
 
           <div className="max-w-4xl mx-auto">

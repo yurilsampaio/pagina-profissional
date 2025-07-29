@@ -6,18 +6,18 @@ import "./globals.css"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Yuri Sampaio - Desenvolvedor de Software",
+  title: "Yuri Sampaio",
   description:
     "Portfolio profissional de Yuri Sampaio, desenvolvedor de software especializado em Delphi, C# .NET, React JS e outras tecnologias modernas.",
   keywords: "desenvolvedor, software, Delphi, React, Next.js, C#, .NET, portfolio",
   authors: [{ name: "Yuri Sampaio" }],
   openGraph: {
-    title: "Yuri Sampaio - Desenvolvedor de Software",
+    title: "Yuri Sampaio",
     description:
       "Portfolio profissional de Yuri Sampaio, desenvolvedor de software especializado em Delphi, C# .NET, React JS e outras tecnologias modernas.",
     type: "website",
   },
-    generator: 'v0.dev'
+    generator: ''
 }
 
 export default function RootLayout({
