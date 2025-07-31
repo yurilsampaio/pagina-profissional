@@ -19,7 +19,7 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
 import Image from "next/image"
 import Link from "next/link"
-import yuriPhoto from "@/assets/yuri-photo.jpeg"
+import yuriPhoto from "../../src/assets/yuri-photo.jpeg"
 
 // Componente para carrossel individual de cada projeto
 function ProjectImageCarousel({ images }: { images: string[] }) {
