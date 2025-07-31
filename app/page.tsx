@@ -277,7 +277,7 @@ export default function Portfolio() {
   // Define o prefixo do caminho para os assets (imagens, etc.)
   // Em produção (GitHub Pages), usa o nome do repositório. Em desenvolvimento, não usa nada.
   //const assetPrefix = process.env.NODE_ENV === "production" ? "/pagina-profissional" : "";
-  const assetPrefix = "/pagina-profissional";
+  const assetPrefix = "/sobre";
 
   useEffect(() => {
     if (isDark) {
