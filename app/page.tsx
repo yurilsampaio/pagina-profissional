@@ -274,6 +274,10 @@ function ContactSection({ title }: { title: string }) {
 export default function Portfolio() {
   const [isDark, setIsDark] = useState(true)
 
+  // Define o prefixo do caminho para os assets (imagens, etc.)
+  // Em produção (GitHub Pages), usa o nome do repositório. Em desenvolvimento, não usa nada.
+  const assetPrefix = process.env.NODE_ENV === "production" ? "/pagina-profissional" : "";
+
   useEffect(() => {
     if (isDark) {
       document.documentElement.classList.add("dark")
@@ -313,7 +317,7 @@ export default function Portfolio() {
         <div className="container mx-auto px-4 text-center">
           <div className="mb-8">
             <div className="relative w-48 h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-primary/20">
-              <Image src="/yuri-photo.jpeg" alt="Yuri Sampaio" fill className="object-cover" priority />
+              <Image src={`${assetPrefix}/yuri-photo.jpeg`} alt="Yuri Sampaio" fill className="object-cover" priority />
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Yuri Sampaio</h1>
             <p className="text-lg md:text-2xl text-muted-foreground mb-8">Engenheiro de Software</p>
