@@ -7,7 +7,8 @@
     "dev": "next dev",
     "lint": "next lint",
     "start": "next start",
-    "deploy": "next build && npx gh-pages -d out"
+    "clean": "npx rimraf ./.next ./out",
+    "deploy": "npm run clean && npm run build && npx gh-pages -d out"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
